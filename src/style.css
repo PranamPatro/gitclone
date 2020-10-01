@@ -1,0 +1,153 @@
+h1, p {
+  font-family: Lato;
+}
+*{
+  margin:0px;
+  padding:0px;
+}
+.Homepage{
+  background-color: rgb(226, 226, 223);
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.IssueCommentHome{
+   background-color: rgb(226, 226, 223);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding:20px
+}
+
+.form{
+  width:200px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right:0;left:0;bottom:0;top:0;
+  margin:auto;
+}
+input{
+  padding:5px;
+  border-radius: 5px;
+
+}
+.searchicon{
+  width:20px;
+  height:20px;
+}
+.logo{
+  width:100px;
+  height:100px;
+  margin:10px
+}
+.suggestionvisible{
+  background-color: white;
+  width: 170px;
+  height: 100px;
+  overflow-y: scroll;
+}
+.SugesstionChannel{
+  flex:1;
+  display:flex;
+}
+.IssueName{
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  }
+.IssueComments{
+  flex:8;
+  overflow-y: scroll;
+  }
+.IssueListContainer{
+    flex:8;
+    display: flex;
+    flex-direction: column;
+  }
+  .suggestionheader{
+    flex:1;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  .suggestionstars{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .usericon{
+    width:25px;
+    height:25px;
+  }
+  .card{
+    display: flex;
+    margin-bottom:5px;
+  }
+  .commentviewer{
+    flex:12;
+    display: flex;
+    flex-direction: column;
+  }
+  .iconviewer{
+    flex: 1;
+  }
+  .viewerheader{
+    background-color: grey;
+    padding:5px;
+  }
+  .viewercontent{
+    padding:5px;
+    border: 1px solid grey;
+  }
+  .headerpart{
+    background-color: grey;
+    flex:1;
+    display: flex;
+  }
+
+  .bodypart{
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    flex:13;
+  }
+  .innerheader{
+    flex:5;
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+    font-size: 13px;
+  }
+  .innerbuttons{
+    flex:7;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  button{
+    padding:2px;
+  }
+
+  .issuecard{
+    box-shadow: 1px 1px 1px grey;
+    display: flex;
+    padding:4px;
+    margin-top:5px;
+  }
+  .headinganddesc{
+    flex:15
+  }
+  .count{
+    padding:5px;
+    flex:1,
+  }
+  .issueheading{
+    display: flex;
+  }
